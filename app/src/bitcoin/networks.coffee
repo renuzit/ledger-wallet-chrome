@@ -23,7 +23,7 @@ bitcoin.networks.zcash =
   scriptHash: 0x1CBD
 
 bitcoin.networks.bitcoinz =
-  magicPrefix: '\x16BitcoinZ Signed Message:\n'
+  magicPrefix: '\x19BitcoinZ Signed Message:\n'
   bip32:
     public: 0x0488B21E,
     private: 0x0488ADE4
@@ -586,9 +586,9 @@ ledger.bitcoin.Networks =
     bolosAppName: 'BitcoinZ'
     ticker: 'btcz'
     tickerKey:
-      from: 'fromBTCZ'
-      to: 'toBTCZ'
-    bip44_coin_type: '147'
+      from: 'fromZEC'
+      to: 'toZEC'
+    bip44_coin_type: '133'
     handleSegwit: no
     isSegwitSupported: no
     version:

@@ -491,7 +491,7 @@ ledger.preferences.bitcoinz =
   # Coin preferences
   Coin:
     explorers:
-      zchain:
+      btczrocks:
         name: 'BTCZ.rocks'
         address: 'https://explorer.btcz.rocks/tx/%s'
     discoveryGap: 20
