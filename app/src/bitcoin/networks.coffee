@@ -586,8 +586,8 @@ ledger.bitcoin.Networks =
     bolosAppName: 'BitcoinZ'
     ticker: 'btcz'
     tickerKey:
-      from: 'fromZEC'
-      to: 'toZEC'
+      from: 'fromBTCZ'
+      to: 'toBTCZ'
     bip44_coin_type: '133'
     handleSegwit: no
     isSegwitSupported: no
