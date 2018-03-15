@@ -136,6 +136,7 @@ require @ledger.imports, ->
 
 
     onChainChosen: (network) ->
+      console.log('network', network)
       ledger.app.router.go '/onboarding/device/opening'
       _.defer =>
         l " on chain chosen"
